@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:bat_spawn_egg",
+		"minecraft:chain_command_block"
+	],
+	"group": "kesuaheli.elevator:elevator",
+	"result": {
+		"id": "minecraft:bee_spawn_egg",
+		"components": {
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:ender_pearl"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"kesuaheli.elevator:elevator_cage",
+			"kesuaheli.elevator:elevator_core",
+			"kesuaheli.elevator:empty_elevator_cage"
+		]
+	}
+}

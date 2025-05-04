@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:redstone",
+		"minecraft:ender_pearl",
+		"minecraft:redstone",
+		"minecraft:stone_pressure_plate"
+	],
+	"group": "kesuaheli.elevator:elevator",
+	"result": {
+		"id": "minecraft:chain_command_block",
+		"count": 4,
+		"components": {
+		}
+	}
+}

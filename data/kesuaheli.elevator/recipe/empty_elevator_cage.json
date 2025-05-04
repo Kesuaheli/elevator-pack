@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"OIO",
+		"I I",
+		"OIO"
+	],
+	"key": {
+		"O": "minecraft:obsidian",
+		"I": "minecraft:iron_bars"
+	},
+	"group": "kesuaheli.elevator:elevator",
+	"result": {
+		"id": "minecraft:bat_spawn_egg",
+		"components": {
+		}
+	}
+}
