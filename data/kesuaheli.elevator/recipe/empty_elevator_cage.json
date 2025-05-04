@@ -13,6 +13,9 @@
 	"result": {
 		"id": "minecraft:bat_spawn_egg",
 		"components": {
+			"minecraft:item_name": { "translate": "item.kesuaheli.elevator.empty_elevator_cage" },
+			"minecraft:item_model": "elevator:empty_elevator_cage",
+			"minecraft:rarity": "common"
 		}
 	}
 }

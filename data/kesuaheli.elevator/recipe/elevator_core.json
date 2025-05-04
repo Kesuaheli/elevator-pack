@@ -11,6 +11,9 @@
 		"id": "minecraft:chain_command_block",
 		"count": 4,
 		"components": {
+			"minecraft:item_name": { "translate": "item.kesuaheli.elevator.elevator_core" },
+			"minecraft:item_model": "elevator:elevator_core",
+			"minecraft:rarity": "common"
 		}
 	}
 }

@@ -8,6 +8,9 @@
 	"result": {
 		"id": "minecraft:bee_spawn_egg",
 		"components": {
+			"minecraft:item_name": { "translate": "item.kesuaheli.elevator.elevator_cage" },
+			"minecraft:item_model": "elevator:elevator_cage",
+			"minecraft:rarity": "common"
 		}
 	}
 }
