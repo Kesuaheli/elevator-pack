@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": "#kesuaheli.elevator:empty_elevator_cage",
+				"components": {
+					"minecraft:item_model": "elevator:empty_elevator_cage"
+				}
+			}
+		}
+	}
+}

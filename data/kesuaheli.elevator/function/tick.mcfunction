@@ -4,3 +4,10 @@ execute as @a[predicate=kesuaheli.elevator:jump,   tag=!up  ] at @s if function 
 execute as @a[predicate=!kesuaheli.elevator:jump,  tag=up   ] run tag @s remove up
 execute as @a[predicate=kesuaheli.elevator:sneak,  tag=!down] at @s if function kesuaheli.elevator:teleport/down run tag @s add down
 execute as @a[predicate=!kesuaheli.elevator:sneak, tag=down ] run tag @s remove down
+
+execute as @e[type=minecraft:interaction] \
+	if data entity @s data."kesuaheli.elevator".elevator \
+	if data entity @s attack \
+	at @s \
+	on attacker \
+	run function kesuaheli.elevator:elevator/remove

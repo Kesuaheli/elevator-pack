@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
 		"minecraft:bat_spawn_egg",
-		"minecraft:chain_command_block"
+		"minecraft:cat_spawn_egg"
 	],
 	"group": "kesuaheli.elevator:elevator",
 	"result": {
@@ -10,6 +10,7 @@
 		"components": {
 			"minecraft:item_name": { "translate": "item.kesuaheli.elevator.elevator_cage" },
 			"minecraft:item_model": "elevator:elevator_cage",
+			"minecraft:max_stack_size": 1,
 			"minecraft:entity_data": {
 				"id": "minecraft:interaction",
 				"width": 1,
