@@ -11,10 +11,28 @@
 	},
 	"group": "kesuaheli.elevator:elevator",
 	"result": {
-		"id": "minecraft:bat_spawn_egg",
+		"id": "minecraft:chain_command_block",
 		"components": {
 			"minecraft:item_name": { "translate": "item.kesuaheli.elevator.empty_elevator_cage" },
 			"minecraft:item_model": "elevator:empty_elevator_cage",
+			"minecraft:consumable": {
+				"animation": "none",
+				"consume_seconds": 3.4e+38,
+				"has_consume_particles": false
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:block_interaction_range",
+					"amount": -1,
+					"operation": "add_multiplied_total",
+					"id": "kesuaheli.elevator:empty_elevator_cage_interaction_range"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
 			"minecraft:rarity": "common"
 		}
 	}

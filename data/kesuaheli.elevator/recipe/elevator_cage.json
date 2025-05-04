@@ -10,6 +10,13 @@
 		"components": {
 			"minecraft:item_name": { "translate": "item.kesuaheli.elevator.elevator_cage" },
 			"minecraft:item_model": "elevator:elevator_cage",
+			"minecraft:entity_data": {
+				"id": "minecraft:interaction",
+				"width": 1,
+				"height": 2,
+				"data": { "kesuaheli.elevator": { "elevator": { } } },
+				"Tags": [ "need_setup" ]
+			},
 			"minecraft:rarity": "common"
 		}
 	}
